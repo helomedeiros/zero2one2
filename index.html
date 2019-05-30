@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Eventos</title>
+    <link href="./estilo.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Eventos</h1>
+    
+    <div id="listagem-eventos"></div>
+  
+        <form id="form-lista" method="POST">
+            <table id="table-eventos" nome="table-eventos"  class="table-eventos" >
+                
+                <tr id="tr-button">
+                    <td><button id="listar-hoje" type="submit" class="button-listar">Ver Eventos de Hoje</button></td>
+                </tr>
+            </table>
+            
+        </form>
+
+       
+    </div>
+
+    <h1 class="titulo">Hoje</h1>
+    
+    <div class='div-pai'>
+        <table id="table-eventos-hoje" nome="table-eventos-hoje">
+                <th>Evento</th>
+               
+        </table>
+    </div>        
+    
+    <br>
+              
+   
+
+    <script src="form.js"></script>
+    <script src="moment.js"></script>
+    <script src="moment-with-locales.js"></script>
+ </body>
+</html>
